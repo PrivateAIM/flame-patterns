@@ -380,7 +380,7 @@ uvicorn = "^0.27.1"
 type = "git"
 url = "https://github.com/PrivateAIM/python-sdk.git"
 reference = "canary"
-resolved_reference = "829a8884ddf837e51cd65cae9717b33f5b510bb7"
+resolved_reference = "6e763f8ab9e1362bb3e690e233069f13b367f871"
 
 [[package]]
 name = "fonttools"
