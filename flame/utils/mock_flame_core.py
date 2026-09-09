@@ -517,7 +517,7 @@ class MockFlameCoreSDK:
             if s3_keys == []:
                 return self.data
             if s3_keys is not None:
-                return [{k: v for k, v in ds if k in s3_keys} for ds in self.data if
+                return [{k: v for k, v in ds.items() if k in s3_keys} for ds in self.data if
                         any(q in ds.keys() for q in s3_keys)]
             else:
                 return None
